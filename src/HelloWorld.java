@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class HelloWorld {
 
+    // for chPick 2
     // Deleted new logic
     public static void main(String[] args) {
 
