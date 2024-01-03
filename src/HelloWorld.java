@@ -12,7 +12,11 @@ public class HelloWorld {
         int couter = 0;
 
         while (number != randomNumber) {
-
+            if (number > randomNumber) {
+                System.out.println("It's less");
+            } else {
+                System.out.println("It's bigger");
+            }
             System.out.println("One more try...");
             couter++;
             number = scanner.nextInt();
