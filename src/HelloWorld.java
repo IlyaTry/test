@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HelloWorld {
 
-    // Something more in logic
+    // Something more in logic.
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
