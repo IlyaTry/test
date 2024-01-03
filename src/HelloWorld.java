@@ -9,11 +9,15 @@ public class HelloWorld {
 
         int randomNumber = (int) (Math.random() * 101);
 
+        int couter = 0;
+
         while (number != randomNumber) {
 
             System.out.println("One more try...");
+            couter++;
             number = scanner.nextInt();
         }
         System.out.println("Yep, it's " + randomNumber);
+        System.out.println("Number of attempts = " + couter);
     }
 }
