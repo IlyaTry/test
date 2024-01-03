@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class HelloWorld {
     public static void main(String[] args) {
+
+        /*
+        OK I did something with this on other pc.
+         */
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter number");
