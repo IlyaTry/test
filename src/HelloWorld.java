@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HelloWorld {
 
-    // Something more in logic.
+    // Deleted new logic
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -16,26 +16,11 @@ public class HelloWorld {
 
         while (number != randomNumber) {
             if (number > randomNumber) {
-                if (number - randomNumber >= 50){
-                    System.out.println("It's LESS, dif more than 50");
-                }else if (number - randomNumber <= 50){
-                    System.out.println("It's LESS, dif less than 50");
-                }else if (number - randomNumber <= 30){
-                    System.out.println("It's LESS, dif less than 30");
-                }else if (number - randomNumber <= 10){
-                    System.out.println("It's LESS, dif less than 10");
-                }
+                System.out.println("It's less");
             } else {
-                if (randomNumber - number >= 50){
-                    System.out.println("It's BIGGER, dif more than 50");
-                }else if (randomNumber - number <= 10){
-                    System.out.println("It's BIGGER, dif less than 10");
-                }else if (randomNumber - number <= 30){
-                    System.out.println("It's BIGGER, dif less than 30");
-                }else if (randomNumber - number <= 50){
-                    System.out.println("It's BIGGER, dif less than 50");
-                }
+                System.out.println("It's bigger");
             }
+
             System.out.println("One more try...");
             couter++;
             number = scanner.nextInt();
