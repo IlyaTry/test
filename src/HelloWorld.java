@@ -9,7 +9,11 @@ public class HelloWorld {
 
         int randomNumber = (int) (Math.random() * 101);
 
+        while (number != randomNumber) {
 
-
+            System.out.println("One more try...");
+            number = scanner.nextInt();
+        }
+        System.out.println("Yep, it's " + randomNumber);
     }
 }
