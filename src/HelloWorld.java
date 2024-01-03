@@ -5,6 +5,8 @@ public class HelloWorld {
 
         /*
         OK I did something with this on other pc.
+
+        And something on Mac.
          */
 
         Scanner scanner = new Scanner(System.in);
