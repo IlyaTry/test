@@ -8,6 +8,9 @@ public class HelloWorld {
         System.out.println("Line in main 1");
 
         System.out.println("Line in main 2");
+        System.out.println("line in branch 1");
+
+        System.out.println("line in branch 2");
 
         Scanner scanner = new Scanner(System.in);
 
