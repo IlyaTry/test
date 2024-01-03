@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
 public class HelloWorld {
+    // don't add any functional
     public static void main(String[] args) {
 
         /*
         OK I did something with this on other pc.
 
         And something on Mac.
+        And no more functional.
          */
 
         Scanner scanner = new Scanner(System.in);
